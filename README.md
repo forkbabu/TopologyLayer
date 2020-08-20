@@ -98,8 +98,8 @@ source activate toplayer
 
 Now, add dependencies
 ```bash
-conda install numpy scipy matplotlib
-conda install pytorch torchvision -c pytorch
+conda install numpy==1.16.4 scipy==1.2.1 matplotlib
+conda install pytorch==1.1.0 torchvision==0.3.0 -c pytorch
 ```
 
 Now, you can install the TopologyLayer package.
